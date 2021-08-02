@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "СтройГигант - учёт личных продаж",
-    "slug": "StroyGigant",
+    "name": "ЛК - учёт личных продаж",
+    "slug": "SampleApp",
     "version": "0.1.8-beta",
     "entryPoint": "./src/App.tsx",
     "icon": "./src/assets/images/icon.png",
@@ -29,7 +29,7 @@
         "backgroundColor": "#ffffff"
       },
       "permissions": ["CAMERA"],
-      "package": "stroygigant.apk"
+      "package": "sampleapp.apk"
     },
     "web": {
       "favicon": "./src/assets/images/favicon.png"

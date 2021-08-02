@@ -12,9 +12,6 @@ export default function InputModule({ returnValue }: Props) {
   const [value, setValue] = useState("");
   return (
     <View style={styles.form}>
-      {/* <Text>
-        2010003455736, 2010003455743, 2010003455750, 2010003458843
-      </Text> */}
       <TextInput
         value={value}
         maxLength={13}

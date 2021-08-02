@@ -9,25 +9,23 @@ interface Props {
 }
 
 export default function Scanner({ returnValue = () => null }: Props) {
-  
-
   const handleBarCodeScanned: BarCodeScannedCallback = ({ data }) => {
     returnValue(data);
-    // alert(`Bar code with data ${data} has been scanned!`);
   };
+
   return (
     <BarCodeScanner
       onBarCodeScanned={handleBarCodeScanned}
-      style={{ ...styles.scanner, ...styles.container }}
+      style={[styles.scanner, styles.container]}
     >
       <View style={styles.layerTop} />
       <View style={styles.layerCenter}>
         <View style={styles.layerLeft} />
         <View style={styles.focused}>
-          <View style={{ ...styles.corner, ...styles.cornerRB }} />
-          <View style={{ ...styles.corner, ...styles.cornerLB }} />
-          <View style={{ ...styles.corner, ...styles.cornerLT }} />
-          <View style={{ ...styles.corner, ...styles.cornerRT }} />
+          <View style={[styles.corner, styles.cornerRB]} />
+          <View style={[styles.corner, styles.cornerLB]} />
+          <View style={[styles.corner, styles.cornerLT]} />
+          <View style={[styles.corner, styles.cornerRT]} />
         </View>
         <View style={styles.layerRight} />
       </View>

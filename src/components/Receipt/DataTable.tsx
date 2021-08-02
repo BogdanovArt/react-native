@@ -5,7 +5,6 @@ import { SwipeRow } from "react-native-swipe-list-view";
 import Colors from "../../constants/Colors";
 
 import { TableData, TableItem } from "../../store/receiptList/types";
-import { IBasicObject } from "../../types/index";
 
 interface Props {
   table: TableData;
