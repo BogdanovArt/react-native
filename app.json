@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "СтройГигант - учёт личных продаж",
+    "slug": "StroyGigant",
+    "version": "0.1.8-beta",
+    "entryPoint": "./src/App.tsx",
+    "icon": "./src/assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "splash": {
+        "image": "./src/assets/images/splash.png",
+        "resizeMode": "native"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": ["CAMERA"],
+      "package": "stroygigant.apk"
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    }
+  }
+}
